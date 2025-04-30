@@ -10,4 +10,6 @@ To use free you use `_ram.dfree(__address__);`.
 
 To compile this with your project on linux use `gcc -shared -fPIC -c random-access.c -o random-access.so` then use `gcc __your_project__ random-access.so -o __your_exe__`.
 
+To use this on visual studio just import the files into your project.
+
 > This module was created by (c)bitwise-studio.
